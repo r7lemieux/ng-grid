@@ -499,8 +499,8 @@ var ngGrid = function ($scope, options, sortService, domUtilityService, $filter,
                 self.sortActual();
                 self.searchProvider.evalFilter();
             }
-            //$scope.$emit('ngGridEventSorted', grid.config.sortInfo);
         },true);
+        });
     };
    
     self.resizeOnData = function(col) {
